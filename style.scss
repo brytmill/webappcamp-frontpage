@@ -1,0 +1,119 @@
+body {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 1.75em;
+	font-weight: 300;
+}
+
+h1 {
+	font-weight: 900;
+}
+
+h2 {
+	font-weight: 900;
+	color: #666;
+}
+
+section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.intro {
+	background: center top no-repeat;
+	background-size: 100%;
+	min-height: 600px;
+	color: #fff;
+	padding-top: 160px;
+	h1, p {
+		text-shadow: 0 1px 10px #000;
+	}
+	.cta {
+		text-shadow: none;
+		color: #fff;
+		font-weight: 900;
+		background: #ef7939;
+		border-bottom: 2px solid darken(#ef7939,20%);
+		padding: 15px 20px;
+		display: inline-block;
+		margin-top: 20px;
+		transition: background .1s ease;
+		&:hover {
+			text-decoration: none;
+			background: lighten(#ef7939,10%);
+		}
+	}
+}
+
+.tools {
+	background-color: #333;
+	padding-top: 0;
+	padding-bottom: 0;
+	.row {
+		.col-md-3 {
+			padding-top: 80px;
+			padding-bottom: 40px;
+			min-height: 250px;
+			i {
+				font-size: 2.5em;
+			}
+			strong {
+				font-size: 2.2em;
+				padding: 5px 15px;
+				border-radius: 10px;
+				border: 1px solid darken(#4c376c,20%);
+			}
+		}
+		.github {
+			background-color: #9cdaf1;
+			p {
+				color: darken(#9cdaf1,20%);
+			}
+		}
+		.bootstrap {
+			background-color: #4c376c;
+			p {
+				color: darken(#4c376c,20%);
+			}
+		}
+		.javascript {
+			background-color: #f0db4f;
+			p {
+				color: darken(#f0db4f,20%);
+			}
+		}
+		.jquery {
+			background-color: #0868ab;
+			p {
+				color: darken(#0868ab,20%);
+			}
+		}
+		.ajax {
+			background-color: #f26c3f;
+			p {
+				color: darken(#f26c3f,20%);
+			}
+		}
+		.apis {
+			background-color: #1b96c9;
+			p {
+				color: darken(#1b96c9,20%);
+			}
+		}
+		.a-programming {
+			background-color: #cf649a;
+			p {
+				color: darken(#cf649a,20%);
+			}
+		}
+		.event-handling {
+			background-color: #33546c;
+			p {
+				color: darken(#33546c,20%);
+			}
+		}
+	}
+}

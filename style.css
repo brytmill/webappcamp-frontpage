@@ -1,0 +1,90 @@
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: 300; }
+
+h1 {
+  font-weight: 900; }
+
+h2 {
+  font-weight: 900;
+  color: #666; }
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.intro {
+  background: center top no-repeat;
+  background-size: 100%;
+  min-height: 600px;
+  color: #fff;
+  padding-top: 160px; }
+  .intro h1, .intro p {
+    text-shadow: 0 1px 10px #000; }
+  .intro .cta {
+    text-shadow: none;
+    color: #fff;
+    font-weight: 900;
+    background: #ef7939;
+    border-bottom: 2px solid #b3490f;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background .1s ease; }
+    .intro .cta:hover {
+      text-decoration: none;
+      background: #f39968; }
+
+.tools {
+  background-color: #333;
+  padding-top: 0;
+  padding-bottom: 0; }
+  .tools .row .col-md-3 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    min-height: 250px; }
+    .tools .row .col-md-3 i {
+      font-size: 2.5em; }
+    .tools .row .col-md-3 strong {
+      font-size: 2.2em;
+      padding: 5px 15px;
+      border-radius: 10px;
+      border: 1px solid #1c1528; }
+  .tools .row .github {
+    background-color: #9cdaf1; }
+    .tools .row .github p {
+      color: #43b9e4; }
+  .tools .row .bootstrap {
+    background-color: #4c376c; }
+    .tools .row .bootstrap p {
+      color: #1c1528; }
+  .tools .row .javascript {
+    background-color: #f0db4f; }
+    .tools .row .javascript p {
+      color: #c8b011; }
+  .tools .row .jquery {
+    background-color: #0868ab; }
+    .tools .row .jquery p {
+      color: #032d4a; }
+  .tools .row .ajax {
+    background-color: #f26c3f; }
+    .tools .row .ajax p {
+      color: #be390d; }
+  .tools .row .apis {
+    background-color: #1b96c9; }
+    .tools .row .apis p {
+      color: #0f536f; }
+  .tools .row .a-programming {
+    background-color: #cf649a; }
+    .tools .row .a-programming p {
+      color: #9d3067; }
+  .tools .row .event-handling {
+    background-color: #33546c; }
+    .tools .row .event-handling p {
+      color: #121e27; }
+
+/*# sourceMappingURL=style.css.map */
