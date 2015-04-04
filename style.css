@@ -16,6 +16,19 @@ section {
 
 .navbar {
   margin-bottom: 0; }
+  .navbar .navbar-brand {
+    color: #1485c6;
+    font-size: 1.5em;
+    font-weight: 900;
+    padding-top: 7px; }
+    .navbar .navbar-brand:hover {
+      color: #1485c6; }
+    .navbar .navbar-brand img {
+      display: inline-block; }
+    .navbar .navbar-brand span {
+      color: #ef7939; }
+  .navbar .navbar-right {
+    font-weight: 900; }
 
 .cta {
   text-shadow: none;
@@ -29,7 +42,8 @@ section {
   transition: background .1s ease; }
   .cta:hover {
     text-decoration: none;
-    background: #f39968; }
+    background: #f39968;
+    color: #fff; }
 
 .btn-primary {
   text-shadow: none;

@@ -20,6 +20,24 @@ section {
 
 .navbar {
 	margin-bottom: 0;
+	.navbar-brand {
+		color: #1485c6;
+		font-size: 1.5em;
+		font-weight: 900;
+		padding-top: 7px;
+		&:hover {
+			color: #1485c6;
+		}
+		img {
+			display: inline-block;
+		}
+		span {
+			color: #ef7939;
+		}
+	}
+	.navbar-right {
+		font-weight: 900;
+	}
 }
 
 .cta {
@@ -35,6 +53,7 @@ section {
 	&:hover {
 		text-decoration: none;
 		background: lighten(#ef7939,10%);
+		color: #fff;
 	}
 }
 
