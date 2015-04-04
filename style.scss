@@ -22,6 +22,45 @@ section {
 	margin-bottom: 0;
 }
 
+.cta {
+	text-shadow: none;
+	color: #fff;
+	font-weight: 900;
+	background: #ef7939;
+	border-bottom: 2px solid darken(#ef7939,20%);
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	transition: background .1s ease;
+	&:hover {
+		text-decoration: none;
+		background: lighten(#ef7939,10%);
+	}
+}
+
+.btn-primary {
+	text-shadow: none;
+	font-weight: 900;
+	background: #1b96c9;
+	border: none;
+	border-bottom: 2px solid darken(#1b96c9,20%);
+	border-radius: 0;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	transition: background .1s ease;
+	a {
+		color: #fff;
+		font-size: 18px;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	&:hover {
+		background: lighten(#1b96c9,10%);
+	}
+}
+
 .intro {
 	background: center top no-repeat;
 	background-size: 100%;
@@ -31,21 +70,11 @@ section {
 	h1, p {
 		text-shadow: 0 1px 10px #000;
 	}
-	.cta {
-		text-shadow: none;
-		color: #fff;
-		font-weight: 900;
-		background: #ef7939;
-		border-bottom: 2px solid darken(#ef7939,20%);
-		padding: 15px 20px;
-		display: inline-block;
-		margin-top: 20px;
-		transition: background .1s ease;
-		&:hover {
-			text-decoration: none;
-			background: lighten(#ef7939,10%);
-		}
-	}
+}
+
+#learn {
+	background: center top no-repeat url('images/enso.png');
+	min-height: 350px;
 }
 
 .tools {
@@ -115,5 +144,18 @@ section {
 				color: darken(#33546c,20%);
 			}
 		}
+	}
+}
+
+#start {
+	background: center top no-repeat url('images/pond.png');
+	min-height: 350px;
+}
+
+#mentor {
+	background: #333;
+	color: #fff;
+	h2 {
+		color: #fff;
 	}
 }

@@ -17,6 +17,39 @@ section {
 .navbar {
   margin-bottom: 0; }
 
+.cta {
+  text-shadow: none;
+  color: #fff;
+  font-weight: 900;
+  background: #ef7939;
+  border-bottom: 2px solid #b3490f;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background .1s ease; }
+  .cta:hover {
+    text-decoration: none;
+    background: #f39968; }
+
+.btn-primary {
+  text-shadow: none;
+  font-weight: 900;
+  background: #1b96c9;
+  border: none;
+  border-bottom: 2px solid #0f536f;
+  border-radius: 0;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background .1s ease; }
+  .btn-primary a {
+    color: #fff;
+    font-size: 18px; }
+    .btn-primary a:hover {
+      text-decoration: none; }
+  .btn-primary:hover {
+    background: #33b0e4; }
+
 .intro {
   background: center top no-repeat;
   background-size: 100%;
@@ -25,19 +58,10 @@ section {
   padding-top: 160px; }
   .intro h1, .intro p {
     text-shadow: 0 1px 10px #000; }
-  .intro .cta {
-    text-shadow: none;
-    color: #fff;
-    font-weight: 900;
-    background: #ef7939;
-    border-bottom: 2px solid #b3490f;
-    padding: 15px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    transition: background .1s ease; }
-    .intro .cta:hover {
-      text-decoration: none;
-      background: #f39968; }
+
+#learn {
+  background: center top no-repeat url("images/enso.png");
+  min-height: 350px; }
 
 .tools {
   background-color: #333;
@@ -86,5 +110,15 @@ section {
     background-color: #33546c; }
     .tools .row .event-handling p {
       color: #121e27; }
+
+#start {
+  background: center top no-repeat url("images/pond.png");
+  min-height: 350px; }
+
+#mentor {
+  background: #333;
+  color: #fff; }
+  #mentor h2 {
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
