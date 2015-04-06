@@ -14,6 +14,10 @@ section {
   padding-top: 80px;
   padding-bottom: 80px; }
 
+blockquote {
+  font-size: 1.25em;
+  font-weight: 400; }
+
 .navbar {
   margin-bottom: 0; }
   .navbar .navbar-brand {
@@ -65,69 +69,73 @@ section {
     background: #33b0e4; }
 
 .intro {
-  background: center top no-repeat;
-  background-size: 100%;
-  min-height: 600px;
+  background: center top no-repeat url("images/hero-bg.jpg");
+  min-height: 720px;
   color: #fff;
-  padding-top: 160px; }
-  .intro h1, .intro p {
-    text-shadow: 0 1px 10px #000; }
+  padding-top: 80px; }
 
 #learn {
-  background: center top no-repeat url("images/enso.png");
-  min-height: 350px; }
-
-.tools {
-  background-color: #333;
-  padding-top: 0;
-  padding-bottom: 0; }
-  .tools .row .col-md-3 {
-    padding-top: 80px;
-    padding-bottom: 40px;
-    min-height: 250px; }
-    .tools .row .col-md-3 i {
-      font-size: 2.5em; }
-    .tools .row .col-md-3 strong {
-      font-size: 2.2em;
-      padding: 5px 15px;
-      border-radius: 10px;
-      border: 1px solid #1c1528; }
-  .tools .row .github {
-    background-color: #9cdaf1; }
-    .tools .row .github p {
-      color: #43b9e4; }
-  .tools .row .bootstrap {
-    background-color: #4c376c; }
-    .tools .row .bootstrap p {
-      color: #1c1528; }
-  .tools .row .javascript {
-    background-color: #f0db4f; }
-    .tools .row .javascript p {
-      color: #c8b011; }
-  .tools .row .jquery {
-    background-color: #0868ab; }
-    .tools .row .jquery p {
-      color: #032d4a; }
-  .tools .row .ajax {
-    background-color: #f26c3f; }
-    .tools .row .ajax p {
-      color: #be390d; }
-  .tools .row .apis {
-    background-color: #1b96c9; }
-    .tools .row .apis p {
-      color: #0f536f; }
-  .tools .row .a-programming {
-    background-color: #cf649a; }
-    .tools .row .a-programming p {
-      color: #9d3067; }
-  .tools .row .event-handling {
-    background-color: #33546c; }
-    .tools .row .event-handling p {
-      color: #121e27; }
+  min-height: 350px;
+  color: #fff; }
+  #learn h2 {
+    color: #fff; }
 
 #start {
-  background: center top no-repeat url("images/pond.png");
+  background: center top no-repeat url("images/enso.png");
+  background-position: 50% -140px;
+  background-size: 50%;
   min-height: 350px; }
+  #start h2 {
+    color: #000; }
+  #start .avatar {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-top: 20px; }
+  #start .row {
+    margin-top: 40px; }
+  #start ul {
+    position: relative;
+    margin-left: 50%;
+    left: -105px;
+    min-width: 240px;
+    margin-top: 20px; }
+    #start ul li {
+      float: left;
+      display: inline;
+      font-size: 1.25em;
+      margin-right: 5px; }
+      #start ul li a i {
+        color: #666;
+        transition: all .3s ease;
+        padding: 12px 14px;
+        border: 1px solid #cacaca;
+        border-radius: 50%; }
+      #start ul li a .fa-github:hover {
+        color: #fff;
+        background: #9cdaf1;
+        border-color: #9cdaf1; }
+      #start ul li a .fa-linkedin-square:hover {
+        color: #fff;
+        background: #0274b3;
+        border-color: #0274b3; }
+      #start ul li a .fa-facebook-square:hover {
+        color: #fff;
+        background: #3b5999;
+        border-color: #3b5999; }
+      #start ul li a .fa-twitter:hover {
+        color: #ddd;
+        background: #28a9e2;
+        border-color: #28a9e2; }
+  #start .col-md-8 {
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    #start .col-md-8 blockquote {
+      margin-bottom: 0; }
+      #start .col-md-8 blockquote span {
+        font-size: 1.75em;
+        color: #666;
+        font-family: 'Architects Daughter', cursive; }
 
 #mentor {
   background: #333;

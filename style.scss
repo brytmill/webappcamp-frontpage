@@ -18,6 +18,11 @@ section {
 	padding-bottom: 80px;
 }
 
+blockquote {
+	font-size: 1.25em;
+	font-weight: 400;
+}
+
 .navbar {
 	margin-bottom: 0;
 	.navbar-brand {
@@ -81,94 +86,171 @@ section {
 }
 
 .intro {
-	background: center top no-repeat;
-	background-size: 100%;
-	min-height: 600px;
+	background: center top no-repeat url('images/hero-bg.jpg');
+	min-height: 720px;
 	color: #fff;
-	padding-top: 160px;
+	padding-top: 80px;
 	h1, p {
-		text-shadow: 0 1px 10px #000;
 	}
 }
 
 #learn {
-	background: center top no-repeat url('images/enso.png');
 	min-height: 350px;
-}
-
-.tools {
-	background-color: #333;
-	padding-top: 0;
-	padding-bottom: 0;
-	.row {
-		.col-md-3 {
-			padding-top: 80px;
-			padding-bottom: 40px;
-			min-height: 250px;
-			i {
-				font-size: 2.5em;
-			}
-			strong {
-				font-size: 2.2em;
-				padding: 5px 15px;
-				border-radius: 10px;
-				border: 1px solid darken(#4c376c,20%);
-			}
-		}
-		.github {
-			background-color: #9cdaf1;
-			p {
-				color: darken(#9cdaf1,20%);
-			}
-		}
-		.bootstrap {
-			background-color: #4c376c;
-			p {
-				color: darken(#4c376c,20%);
-			}
-		}
-		.javascript {
-			background-color: #f0db4f;
-			p {
-				color: darken(#f0db4f,20%);
-			}
-		}
-		.jquery {
-			background-color: #0868ab;
-			p {
-				color: darken(#0868ab,20%);
-			}
-		}
-		.ajax {
-			background-color: #f26c3f;
-			p {
-				color: darken(#f26c3f,20%);
-			}
-		}
-		.apis {
-			background-color: #1b96c9;
-			p {
-				color: darken(#1b96c9,20%);
-			}
-		}
-		.a-programming {
-			background-color: #cf649a;
-			p {
-				color: darken(#cf649a,20%);
-			}
-		}
-		.event-handling {
-			background-color: #33546c;
-			p {
-				color: darken(#33546c,20%);
-			}
-		}
+	color: #fff;
+	h2 {
+		color: #fff;
 	}
 }
 
+// .tools {
+// 	background-color: #333;
+// 	padding-top: 0;
+// 	padding-bottom: 0;
+// 	.row {
+// 		.col-md-3 {
+// 			padding-top: 80px;
+// 			padding-bottom: 40px;
+// 			min-height: 250px;
+// 			i {
+// 				font-size: 2.5em;
+// 			}
+// 			strong {
+// 				font-size: 2.2em;
+// 				padding: 5px 15px;
+// 				border-radius: 10px;
+// 				border: 1px solid darken(#4c376c,20%);
+// 			}
+// 		}
+// 		.github {
+// 			background-color: #9cdaf1;
+// 			p {
+// 				color: darken(#9cdaf1,20%);
+// 			}
+// 		}
+// 		.bootstrap {
+// 			background-color: #4c376c;
+// 			p {
+// 				color: darken(#4c376c,20%);
+// 			}
+// 		}
+// 		.javascript {
+// 			background-color: #f0db4f;
+// 			p {
+// 				color: darken(#f0db4f,20%);
+// 			}
+// 		}
+// 		.jquery {
+// 			background-color: #0868ab;
+// 			p {
+// 				color: darken(#0868ab,20%);
+// 			}
+// 		}
+// 		.ajax {
+// 			background-color: #f26c3f;
+// 			p {
+// 				color: darken(#f26c3f,20%);
+// 			}
+// 		}
+// 		.apis {
+// 			background-color: #1b96c9;
+// 			p {
+// 				color: darken(#1b96c9,20%);
+// 			}
+// 		}
+// 		.a-programming {
+// 			background-color: #cf649a;
+// 			p {
+// 				color: darken(#cf649a,20%);
+// 			}
+// 		}
+// 		.event-handling {
+// 			background-color: #33546c;
+// 			p {
+// 				color: darken(#33546c,20%);
+// 			}
+// 		}
+// 	}
+// }
+
 #start {
-	background: center top no-repeat url('images/pond.png');
+	background: center top no-repeat url('images/enso.png');
+	background-position: 50% -140px;
+	background-size: 50%;
 	min-height: 350px;
+	h2 {
+		color: #000;
+	}
+	.avatar {
+		border-radius: 50%;
+		max-width: 200px;
+		margin-top: 20px;
+	}
+	.row {
+		margin-top: 40px;
+	}
+	ul {
+		position: relative;
+		margin-left: 50%;
+		left: -105px;
+		min-width: 240px;
+		margin-top: 20px;
+		li {
+			float: left;
+			display: inline;
+			font-size: 1.25em;
+			margin-right: 5px;
+			a {
+				i {
+					color: #666;
+					transition: all .3s ease;
+					padding: 12px 14px;
+					border: 1px solid #cacaca;
+					border-radius: 50%;
+				}
+				.fa-github {
+					&:hover {
+						color: #fff;
+						background: #9cdaf1;
+						border-color: #9cdaf1;
+					}
+				}
+				.fa-linkedin-square {
+					&:hover {
+						color: #fff;
+						background: #0274b3;
+						border-color: #0274b3;
+					}
+				}
+				.fa-facebook-square {
+					&:hover {
+						color: #fff;
+						background: #3b5999;
+						border-color: #3b5999;
+					}
+				}
+				.fa-twitter {
+					&:hover {
+						color: #ddd;
+						background: #28a9e2;
+						border-color: #28a9e2;
+					}
+				}
+			}
+		}
+	}
+	.col-md-8 {
+		text-align: left;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		blockquote {
+			margin-bottom: 0;
+			span {
+				font-size: 1.75em;
+				color: #666;
+				font-family: 'Architects Daughter', cursive;
+			}
+		}
+	}
 }
 
 #mentor {
