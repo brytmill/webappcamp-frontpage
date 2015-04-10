@@ -10,6 +10,13 @@ h2 {
   font-weight: 900;
   color: #666; }
 
+h4 {
+  font-weight: 900;
+  color: #999; }
+
+p {
+  line-height: 1.75em; }
+
 section {
   padding-top: 80px;
   padding-bottom: 80px; }
@@ -71,26 +78,73 @@ blockquote {
 .intro {
   background: center top no-repeat url("images/hero-bg.jpg");
   min-height: 720px;
-  color: #fff;
-  padding-top: 80px; }
+  padding-top: 100px; }
+  .intro img {
+    max-width: 200px;
+    margin: auto; }
+
+#project img {
+  box-shadow: 0 0 15px #ddd; }
+#project span {
+  color: #1b96c9;
+  font-weight: 700; }
 
 #learn {
   min-height: 350px;
   color: #fff; }
   #learn h2 {
-    color: #fff; }
+    color: #fff;
+    margin-bottom: 40px; }
+  #learn i {
+    font-size: 3em; }
+  #learn .col-md-3 {
+    margin-bottom: 40px; }
 
 #start {
   background: center top no-repeat url("images/enso.png");
-  background-position: 50% -140px;
-  background-size: 50%;
-  min-height: 350px; }
-  #start h2 {
-    color: #000; }
+  background-position: 50%;
+  background-size: 50%; }
+  #start .space-left {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px; }
+    #start .space-left h4, #start .space-left p {
+      padding-left: 120px; }
+    #start .space-left p {
+      font-weight: 700;
+      color: #666; }
+  #start .col-md-6 {
+    position: relative;
+    text-align: left; }
+    #start .col-md-6 span {
+      color: #1b96c9;
+      font-weight: 700; }
+    #start .col-md-6 .col-md-6 {
+      font-size: 0.75em; }
+    #start .col-md-6 .testimonial {
+      font-size: 0.75em;
+      font-weight: 700;
+      background: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      position: relative;
+      margin-bottom: 20px; }
+      #start .col-md-6 .testimonial img {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        max-width: 75px;
+        border-radius: 50%; }
+      #start .col-md-6 .testimonial h4, #start .col-md-6 .testimonial p {
+        padding-left: 100px; }
   #start .avatar {
     border-radius: 50%;
-    max-width: 200px;
-    margin-top: 20px; }
+    max-width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 40px; }
   #start .row {
     margin-top: 40px; }
   #start ul {
@@ -136,6 +190,16 @@ blockquote {
         font-size: 1.75em;
         color: #666;
         font-family: 'Architects Daughter', cursive; }
+
+#experts {
+  text-align: center; }
+  #experts li {
+    float: left;
+    list-style: none;
+    margin-right: 70px;
+    min-height: 200px; }
+  #experts img {
+    max-width: 200px; }
 
 #mentor {
   background: #333;
