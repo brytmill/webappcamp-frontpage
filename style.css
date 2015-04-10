@@ -76,7 +76,7 @@ blockquote {
     background: #33b0e4; }
 
 .intro {
-  background: center top no-repeat url("images/hero-bg.jpg");
+  background: center top no-repeat url("images/head-bg.jpg");
   min-height: 720px;
   padding-top: 100px; }
   .intro img {
